@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Comparador RAG · Taller de Investigación</title>
+  <link rel="stylesheet" href="/app.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><div class="brand"><span class="brand-icon" aria-hidden="true">R</span><span>Laboratorio RAG <small>Taller de Investigación · Grupo 2</small></span></div><span id="engine-status" class="pill">Comprobando motor…</span></header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">EXPLORACIÓN DEL PROTOTIPO</p><h1>Comparador RAG</h1><p class="lead">Elegí un rol y compará cómo responde cada configuración a la misma consulta.</p></div><span class="local-label"><span aria-hidden="true">●</span> Local · Documentos ficticios</span></div>
+    <section class="query-section" aria-labelledby="query-heading">
+      <h2 id="query-heading" class="sr-only">Preparar una comparación</h2>
+      <form id="query-form">
+        <div class="query-fields"><div class="role-field"><label for="role">Rol del usuario</label><select id="role" name="role"><option value="General">General</option><option value="Ventas">Ventas</option><option value="RRHH">Recursos Humanos</option><option value="Direccion">Dirección</option></select><p class="hint">Define qué fuentes puede consultar.</p></div><div class="question-field"><label for="query">Consulta</label><textarea id="query" name="query" rows="3" maxlength="8000" placeholder="Por ejemplo: ¿Cuál es la remuneración de EMP-101?" required></textarea></div></div>
+        <div class="form-actions"><button id="example" type="button" class="quiet-button">Cargar ejemplo de permisos</button><span id="character-count" class="hint">0 / 8000</span><button id="compare" type="submit" class="primary-button" disabled>Comparar las cuatro <span aria-hidden="true">→</span></button></div>
+      </form>
+      <div id="environment-error" class="notice error-notice" role="alert" hidden><p id="environment-message"></p><button id="retry" class="quiet-button" type="button">Volver a comprobar</button></div>
+      <p id="form-error" class="error-text" role="alert" hidden></p>
+    </section>
+    <section class="comparison" aria-labelledby="comparison-heading" aria-busy="false">
+      <div class="comparison-heading"><div><h2 id="comparison-heading">Las cuatro configuraciones</h2><p id="comparison-query">Una misma consulta y el mismo modelo en los cuatro casos.</p></div><a id="download" class="download-link" hidden>Descargar comparación ↓</a></div>
+      <p id="progress" class="progress" role="status" aria-live="polite">Listo para tu primera consulta.</p>
+      <div id="panels" class="panels"></div>
+      <p id="evidence" class="evidence" hidden></p>
+    </section>
+    <footer><p id="model-label">Modelo local · Mismo corpus y parámetros</p><p>Prueba exploratoria. Ejecución secuencial; los tiempos pueden incluir la carga del modelo. Una respuesta completada no garantiza exactitud ni seguridad.</p></footer>
+  </main>
+  <template id="panel-template">
+    <article class="panel"><header class="panel-header"><div><span class="variant-code"></span><h3 class="variant-name"></h3></div><span class="panel-state pill">Pendiente</span></header><p class="variant-description"></p><div class="panel-content"><p class="waiting">La respuesta y sus fuentes aparecerán aquí.</p><div class="result" hidden><div class="result-metrics"></div><h4>Respuesta</h4><p class="response"></p><p class="result-notice" hidden></p><details class="raw-output" hidden><summary>Ver respuesta antes del control de salida</summary><p class="raw-response"></p></details><div class="sources-heading"><h4>Documentos recuperados</h4><span class="sources-count"></span></div><div class="sources"></div></div></div></article>
+  </template>
+</body>
+</html>

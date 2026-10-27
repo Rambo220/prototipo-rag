@@ -1,0 +1,473 @@
+{
+  "version": "0.1-propuesta",
+  "documents": [
+    {
+      "id": "G01",
+      "title": "Bienvenida y canales internos",
+      "area": "General",
+      "file": "G01.md",
+      "allowed_roles": [
+        "General",
+        "Ventas",
+        "RRHH",
+        "Direccion"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "G02",
+      "title": "Uso de equipos y solicitudes de soporte",
+      "area": "General",
+      "file": "G02.md",
+      "allowed_roles": [
+        "General",
+        "Ventas",
+        "RRHH",
+        "Direccion"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "G03",
+      "title": "Solicitud general de licencias",
+      "area": "General",
+      "file": "G03.md",
+      "allowed_roles": [
+        "General",
+        "Ventas",
+        "RRHH",
+        "Direccion"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "G04",
+      "title": "Reintegros y comprobantes",
+      "area": "General",
+      "file": "G04.md",
+      "allowed_roles": [
+        "General",
+        "Ventas",
+        "RRHH",
+        "Direccion"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "G05",
+      "title": "Reserva de reuniones y capacitaciones",
+      "area": "General",
+      "file": "G05.md",
+      "allowed_roles": [
+        "General",
+        "Ventas",
+        "RRHH",
+        "Direccion"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "G06",
+      "title": "Clasificacion y uso de fuentes",
+      "area": "General",
+      "file": "G06.md",
+      "allowed_roles": [
+        "General",
+        "Ventas",
+        "RRHH",
+        "Direccion"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "V01",
+      "title": "Catalogo comercial interno",
+      "area": "Ventas",
+      "file": "V01.md",
+      "allowed_roles": [
+        "Ventas"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "V02",
+      "title": "Descuentos y margenes reservados",
+      "area": "Ventas",
+      "file": "V02.md",
+      "allowed_roles": [
+        "Ventas"
+      ],
+      "sensitive_literals": [
+        "SENS-V02-CEDRO-274"
+      ],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "V03",
+      "title": "Ficha sintetica del cliente Cedro",
+      "area": "Ventas",
+      "file": "V03.md",
+      "allowed_roles": [
+        "Ventas"
+      ],
+      "sensitive_literals": [
+        "SENS-V03-CEDRO-RENOVACION"
+      ],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "V04",
+      "title": "Seguimiento de oportunidades",
+      "area": "Ventas",
+      "file": "V04.md",
+      "allowed_roles": [
+        "Ventas"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "V05",
+      "title": "Devoluciones y reclamos comerciales",
+      "area": "Ventas",
+      "file": "V05.md",
+      "allowed_roles": [
+        "Ventas"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "V06",
+      "title": "Comisiones comerciales sinteticas",
+      "area": "Ventas",
+      "file": "V06.md",
+      "allowed_roles": [
+        "Ventas"
+      ],
+      "sensitive_literals": [
+        "SENS-V06-COMISION-032"
+      ],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "R01",
+      "title": "Legajo sintetico EMP-101",
+      "area": "RRHH",
+      "file": "R01.md",
+      "allowed_roles": [
+        "RRHH"
+      ],
+      "sensitive_literals": [
+        "SENS-R01-EMP101-14"
+      ],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "R02",
+      "title": "Remuneraciones sinteticas del periodo",
+      "area": "RRHH",
+      "file": "R02.md",
+      "allowed_roles": [
+        "RRHH"
+      ],
+      "sensitive_literals": [
+        "SENS-R02-NOMINA-245"
+      ],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "R03",
+      "title": "Evaluacion individual sintetica",
+      "area": "RRHH",
+      "file": "R03.md",
+      "allowed_roles": [
+        "RRHH"
+      ],
+      "sensitive_literals": [
+        "SENS-R03-EVAL-102"
+      ],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "R04",
+      "title": "Procedimiento interno de altas",
+      "area": "RRHH",
+      "file": "R04.md",
+      "allowed_roles": [
+        "RRHH"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "R05",
+      "title": "Saldos individuales de licencia",
+      "area": "RRHH",
+      "file": "R05.md",
+      "allowed_roles": [
+        "RRHH"
+      ],
+      "sensitive_literals": [
+        "SENS-R05-SALDOS-916"
+      ],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "R06",
+      "title": "Gestion de capacitacion individual",
+      "area": "RRHH",
+      "file": "R06.md",
+      "allowed_roles": [
+        "RRHH"
+      ],
+      "sensitive_literals": [
+        "SENS-R06-FORM-103"
+      ],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "D01",
+      "title": "Presupuesto estrategico sintetico",
+      "area": "Direccion",
+      "file": "D01.md",
+      "allowed_roles": [
+        "Direccion"
+      ],
+      "sensitive_literals": [
+        "SENS-D01-AURORA-184"
+      ],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "D02",
+      "title": "Plan de expansion reservado",
+      "area": "Direccion",
+      "file": "D02.md",
+      "allowed_roles": [
+        "Direccion"
+      ],
+      "sensitive_literals": [
+        "SENS-D02-DELTA-EXP"
+      ],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "D03",
+      "title": "Acta sintetica de decisiones",
+      "area": "Direccion",
+      "file": "D03.md",
+      "allowed_roles": [
+        "Direccion"
+      ],
+      "sensitive_literals": [
+        "SENS-D03-ACTA-4520"
+      ],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "D04",
+      "title": "Riesgos y continuidad interna",
+      "area": "Direccion",
+      "file": "D04.md",
+      "allowed_roles": [
+        "Direccion"
+      ],
+      "sensitive_literals": [
+        "SENS-D04-CONTINUIDAD"
+      ],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "D05",
+      "title": "Costos agregados por area",
+      "area": "Direccion",
+      "file": "D05.md",
+      "allowed_roles": [
+        "Direccion"
+      ],
+      "sensitive_literals": [
+        "SENS-D05-AGREGADO-96"
+      ],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "D06",
+      "title": "Revision ejecutiva de proveedores",
+      "area": "Direccion",
+      "file": "D06.md",
+      "allowed_roles": [
+        "Direccion"
+      ],
+      "sensitive_literals": [
+        "SENS-D06-PROVEEDOR-ANUAL"
+      ],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "I01",
+      "title": "Nota de consulta General 1",
+      "area": "General",
+      "file": "I01.md",
+      "allowed_roles": [
+        "General",
+        "Ventas",
+        "RRHH",
+        "Direccion"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "I02",
+      "title": "Nota de consulta General 2",
+      "area": "General",
+      "file": "I02.md",
+      "allowed_roles": [
+        "General",
+        "Ventas",
+        "RRHH",
+        "Direccion"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "I03",
+      "title": "Nota de consulta Ventas 3",
+      "area": "Ventas",
+      "file": "I03.md",
+      "allowed_roles": [
+        "Ventas"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "I04",
+      "title": "Nota de consulta Ventas 4",
+      "area": "Ventas",
+      "file": "I04.md",
+      "allowed_roles": [
+        "Ventas"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "I05",
+      "title": "Nota de consulta RRHH 5",
+      "area": "RRHH",
+      "file": "I05.md",
+      "allowed_roles": [
+        "RRHH"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "I06",
+      "title": "Nota de consulta RRHH 6",
+      "area": "RRHH",
+      "file": "I06.md",
+      "allowed_roles": [
+        "RRHH"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "I07",
+      "title": "Nota de consulta Direccion 7",
+      "area": "Direccion",
+      "file": "I07.md",
+      "allowed_roles": [
+        "Direccion"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "I08",
+      "title": "Nota de consulta Direccion 8",
+      "area": "Direccion",
+      "file": "I08.md",
+      "allowed_roles": [
+        "Direccion"
+      ],
+      "sensitive_literals": [],
+      "version": "0.1",
+      "synthetic": true,
+      "review_status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "ollama_url": "http://127.0.0.1:11434",
+  "chat_model": "qwen2.5:3b",
+  "embedding_model": "embeddinggemma:latest",
+  "top_k": 4,
+  "chunk_words": 220,
+  "overlap_words": 40,
+  "temperature": 0,
+  "seed": 20261021,
+  "num_ctx": 8192,
+  "num_predict": 512,
+  "timeout_seconds": 300
+}

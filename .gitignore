@@ -1,0 +1,14 @@
+.runtime/
+data/index.json
+resultados/
+__pycache__/
+*.pyc
+
+graphify-out/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+prototipo_rag_instalable.zip
+prototipo_rag_instalable.sha256

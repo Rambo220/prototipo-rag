@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-10-21",
+  "ollama_version": "0.40.7",
+  "models": {
+    "chat_model": {
+      "name": "qwen2.5:3b",
+      "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b"
+    },
+    "embedding_model": {
+      "name": "embeddinggemma:latest",
+      "digest": "85462619ee721b466c5927d109d4cb765861907d5417b9109caebc4e614679f1"
+    }
+  }
+}
